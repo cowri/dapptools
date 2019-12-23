@@ -40,5 +40,6 @@ rec {
   # these versions have not been upstreamed on NixOS/nixpkgs yet, and come from our fork at dapptools/nixpkgs
   unreleased = {
     solc_0_5_15 = { rev = "6f52b26b5f6807d0a4d855c52ab88e97a737c2f1"; sha256 = "0q7659gpn320j860kljff85a7q9p2ys5vcr5rp8bpa4x3znpj9y4"; };
+    solc_0_6_0  = { rev ="3273108202c55647cc19d6a225ef81d235fc61b0"; sha256 = "05crs4vaapm93slyrsmiv3dl7nk5yj3iql4mk3y1z1sx1p84s7yc"; };
   };
 }
